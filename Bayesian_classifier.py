@@ -97,4 +97,4 @@ for i in range(0, len(X_test)):
     else:
         divide[1] += 1
 
-print(divide[0]/len(y_test))
+print("accuracy = ", divide[0]/len(y_test))
